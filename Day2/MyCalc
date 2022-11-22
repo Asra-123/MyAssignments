@@ -1,1 +1,22 @@
-sargfasrefasefase
+package week1.day2;
+
+public class MyCalculator {
+
+	public static void main(String[] args) {
+		Calculator calObj = new Calculator();
+		int addResult=calObj.add(20, 15, 10);
+		System.out.println("the sum is"+ addResult);
+		
+		int subResult =calObj.sub(34,12);
+		System.out.println("the sub is"+subResult);
+		
+		double mulResult =calObj.mul(24.55768, 34.66);
+		System.out.println("the mul result is "+mulResult);
+		
+		float divResult =calObj.div(15.5f, 3.5f);
+		System.out.println("the div Result is "+divResult);
+		
+		
+	}
+
+}
